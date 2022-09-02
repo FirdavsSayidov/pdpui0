@@ -10,9 +10,10 @@ class FeedPage extends StatefulWidget {
 
 class _FeedPageState extends State<FeedPage> {
   List<Story> _stories = [
-    Story(image: "assets/images/user_1.jpeg", name: "your story"),
-    Story(image: "assets/images/user_2.jpeg", name: "Sylvester"),
+    Story(image: "assets/images/user_2.jpeg", name: "your story"),
     Story(image: "assets/images/user_3.jpeg",name: "Lavina"),
+
+    Story(image: "assets/images/user_1.jpeg", name: "Jazmin"),
     Story(image: "assets/images/user_1.jpeg",name: "Jazmin"),
     Story(image: "assets/images/user_2.jpeg",name: "Sylvester"),
     Story(image: "assets/images/user_3.jpeg", name: "Lavina"),
@@ -226,7 +227,7 @@ class _FeedPageState extends State<FeedPage> {
                 children: [
                   TextSpan(
                     text: "Liked By ",
-                    style: TextStyle(color: Colors.white),
+                    style: TextStyle(color: Colors.grey),
                   ),
                   TextSpan(
                     text: "Sigmund,",
@@ -249,7 +250,7 @@ class _FeedPageState extends State<FeedPage> {
                   TextSpan(
                     text: " and",
                     style: TextStyle(
-                      color: Colors.white,
+                      color: Colors.grey,
                     ),
                   ),
                   TextSpan(
